@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  flex-direction: column;
+  background: url(./table2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.about {
+  position: relative;
+  margin: auto;
+}
+
+.vin {
+  display: block;
+  width: 200%;
+}
+
+
+.Accomplishments {
+  background-color: yellow;
+  color: black;
+  border-color: #e8e802;
+  width: 140px;
+  height: 30px;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-left: -5%;
+  top: 250px;
+}
+
+.story{
+  background-color: orange;
+  color: black;
+  border-color: #dc9209;
+  width: 100px;
+  height: 30px;
+  transform: rotate(90deg);
+  position: absolute;
+  margin-left: 870px;
+  top: 461px;
+}
+.contact {
+  background-color: #6dc2df;
+  color: black;
+  border-color: #5fbad8;
+  width: 90px;
+  height: 30px;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 366px;
+  margin-left: 1%;
+}
+
+.cover {
+  background-color: hotpink;
+  color: black;
+  border-color: #ff57ab;
+  width: 140px;
+  height: 30px;
+  transform: rotate(-90deg);
+  position: absolute;
+  margin-left: -6%;
+  top: 110px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+
+    height: 75%;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+.leftpage{
+  width: 390px;
+}
+.rightpage{
+  margin-left: 3%;
+  width: 390px;
+}
+
+/* .PrologueText {
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 250px;
+    margin-inline-end: 665px;
+    margin-top: 10px; */
+}
+
+.PrologueHead {
+    /* margin-block-start: 1em;
+    margin-block-end: 7px;
+    margin-inline-start: 250px;
+    margin-inline-end: 660px;
+    margin-top: 50px; */
+}
+
+.CurrentHead{
+    /* margin-block-start: 1em;
+    margin-block-end: 7px;
+    margin-inline-start: 680px;
+    margin-top: 50px; */
+}
+
+.CurrentText {
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 675px;
+    margin-inline-end: 900px;
+    margin-top: 20px; */
+} */

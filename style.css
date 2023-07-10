@@ -1,0 +1,121 @@
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.cover {
+  position: absolute;
+  right: 100px;
+}
+
+.font-effect-emboss{
+  position: absolute;
+  right: 220px;
+}
+
+body {
+  cursor: url(Quill.png), auto; 
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  flex-direction: column;
+  background: url(./table2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+span{
+  margin:20px;
+    padding:20px;
+    border:2px solid #d6a872;
+    display: flex;
+    flex-direction: row;
+  color: #d6a872 !important; 
+  text-align: right;
+  font-family: "Sofia", sans-serif;
+  width: 100px;
+}
+
+
+img {
+  width: 420px;
+  align-items: right;
+}
+
+.writtenBy{
+   position: absolute;
+  margin-left: -455px;
+}
+.writtenBy2{
+   position: absolute;
+   margin-left: -410px;
+}
+.right {
+  position: absolute;
+  right:200px;
+}
+
+.aboutButton {
+  background-color: hotpink;
+  color: black;
+  border-color: #ff57ab;
+  width: 150px;
+  height: 30px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.accomplishmentsButton{
+  background-color: yellow;
+  color: black;
+  border-color: #e8e802;
+  width: 150px;
+  height: 30px;
+}
+
+.storyButton {
+  width:120px;
+  height: 30px;
+  background-color: orange;
+  border-color: #dc9209;
+  color: black;
+}
+.contactButton {
+  background-color: #6dc2df;
+  color: black;
+  border-color: #5fbad8;
+  width: 120px;
+  height: 30px;
+}
+
+.entry-page {
+  position: relative;
+  margin: auto;
+}
+
+h4{
+  font-family: "Sofia", sans-serif;
+  color: #d6a872
+}
+
+.about{
+    display:none;
+}
+
+.buttons{
+  transform: rotate(90deg);
+  position:absolute;     
+  margin-left: -354px;
+  top:300px;
+  display: flex;
+  flex-direction: row;
+}

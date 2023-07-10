@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  flex-direction: column;
+  background: url(./table2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 900px;
+  flex: center;
+}
+
+.about {
+  position: relative;
+  margin: auto;
+}
+
+.vin {
+  display: block;
+  width: 900px;
+}
+
+
+.Accomplishments {
+  background-color: yellow;
+  color: black;
+  border-color: #e8e802;
+  width: 140px;
+  height: 30px;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 250px;
+  left: -18px;
+}
+
+.story{
+  background-color: orange;
+  color: black;
+  border-color: #dc9209;
+  width: 100px;
+  height: 30px;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 20px;
+  top: 462px;
+}
+.contact {
+  background-color: #6dc2df;
+  color: black;
+  border-color: #5fbad8;
+  width: 90px;
+  height: 30px;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: 20px;
+  top: 366px;
+}
+
+.cover {
+  background-color: hotpink;
+  color: black;
+  border-color: #ff57ab;
+  width: 140px;
+  height: 30px;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -25px;
+  top: 110px;
+}
+
+.leftBtn {
+  width: 500px;
+  height: 500px;
+}
+.rightBtn{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+
+.vin {
+  display: block;
+  width: 200%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+
+    height: 75%;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+.leftpage{
+  width: 390px;
+}
+.rightpage{
+  margin-left: 3%;
+  width: 390px;
+}
+
+.
